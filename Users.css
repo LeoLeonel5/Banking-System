@@ -1,0 +1,90 @@
+ul li {
+    width:30%;
+    margin:auto;
+    display:flex;
+    align-items: right;
+    justify-content: space-between;
+  }
+
+  ul li{
+    display:inline-block;
+    list-style:armenian;
+    color: black;
+  }
+  
+  nav ul li a:hover{
+    color: #ff4321;
+  }
+
+.users{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.users td, .users th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.users tr:nth-child(even){
+    background-color: lavender;
+}
+
+.users tr:hover{
+    background-color: #ddd;
+}
+
+.users th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:skyblue;
+    color:black;
+}
+
+.add-user{
+    width: 350px;
+    height: 250px;
+    background:lightsteelblue;
+    border-radius: 6px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 25%;
+    transform: translate(-50%) scale(1);
+}
+
+.add-user button{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.label{
+    font-size:x-large;
+    padding: 0 30px;
+}
+
+.inp{
+    font-size: larger;
+    padding: 0 10px;
+}
+
